@@ -4,21 +4,32 @@
              x:Class="Tarea1_2PM02.Views.Pagina1">
     <ContentPage.Content>
         <StackLayout>
+            <Label Margin="160"></Label>
+            
             <Label Text="{Binding nombres}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="lbnombres" />
+                   FontSize="32"
+                   TextColor="Green"
+                   HorizontalOptions="CenterAndExpand"
+                   x:Name="lbnombres" />
 
             <Label Text="{Binding apellidos}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="lbapellidos" />
+                   TextColor="Green"
+                   FontSize="32"
+                   Margin="30"
+                   HorizontalOptions="CenterAndExpand" x:Name="lbapellidos" />
 
             <Label Text="{Binding edad}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="lbedad" />
+                   TextColor="Green"
+                   FontSize="32"
+                   Margin="30"
+                   HorizontalOptions="CenterAndExpand" 
+                   x:Name="lbedad" />
 
             <Label Text="{Binding correo}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="lbcorreo" />
+                   TextColor="Green"
+                   FontSize="32"
+                   HorizontalOptions="CenterAndExpand"
+                   x:Name="lbcorreo" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
